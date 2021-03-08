@@ -1,0 +1,22 @@
+{
+  "name": "thales",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thneves/Thales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thneves/Thales/issues"
+  },
+  "homepage": "https://github.com/thneves/Thales#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
