@@ -53,7 +53,7 @@ header nav i {
 }
 
 .intro p {
-  width: 500px;
+  width: 300px;
   margin: 15px 0;
   margin-left: 10%;
   line-height: 16px;
@@ -425,19 +425,13 @@ header nav i {
   background: #6070FF;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
+
   
-  .light-three {
-    position: absolute;
-    right: 16%;
-    top: 15%;
-    transform: rotate(-30deg);
-  }
-  
+  .light-three,
   .dark-three {
-  position: absolute;
-  right: 6.6%;
-  top: 20%;
+    display: none;
   }
+  
   
   .light-four {
   position: absolute;
@@ -471,6 +465,30 @@ header nav i {
 
   .intro {
     max-width: 1268px;
+  }
+
+  .intro p {
+    width: 500px;
+    margin: 15px 0;
+    margin-left: 10%;
+    line-height: 16px;
+    text-align: left;
+    color: #172B4D;
+  }
+
+  .light-three {
+    display: block;
+    position: absolute;
+    right: 16%;
+    top: 15%;
+    transform: rotate(-30deg);
+  }
+  
+  .dark-three {
+    display: initial;
+  position: absolute;
+  right: 6.6%;
+  top: 20%;
   }
 
   .card {
