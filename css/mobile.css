@@ -413,7 +413,7 @@ header nav i {
   .light-two {
   position: absolute;
   left: 50%;
-  top: 16.4%;
+  top: 12.4%;
   }
   
   .dark-two {
@@ -421,7 +421,7 @@ header nav i {
   width: 56.01px;
   height: 10.02px;
   left: 50%;
-  top: 20%;
+  top: 17%;
   background: #6070FF;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
@@ -457,6 +457,42 @@ header nav i {
     bottom: 16.5%;
   }
 
+@media only screen and (max-width: 480px) {
+
+  .intro h1 {
+    width: 270px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .intro p {
+    width: 250px;
+    margin: 15px 0;
+    margin-left: 10%;
+    line-height: 16px;
+    text-align: left;
+    color: #172B4D;
+  }
+
+  
+  .light-two {
+  position: absolute;
+  left: 70%;
+  top: 27.4%;
+  }
+
+  .dark-two {
+  position: absolute;
+  width: 56.01px;
+  height: 10.02px;
+  left: 70%;
+  top: 30%;
+  background: #6070FF;
+  transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
+  }
+
+  
+}
+
 @media only screen and (min-width: 720px) {
   body {
     min-width: 720px;
@@ -475,6 +511,22 @@ header nav i {
     text-align: left;
     color: #172B4D;
   }
+
+  .light-two {
+    position: absolute;
+    left: 50%;
+    top: 16.4%;
+    }
+    
+    .dark-two {
+      position: absolute;
+    width: 56.01px;
+    height: 10.02px;
+    left: 50%;
+    top: 20%;
+    background: #6070FF;
+    transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
+    }
 
   .light-three {
     display: block;
