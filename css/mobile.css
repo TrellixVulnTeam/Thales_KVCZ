@@ -413,7 +413,7 @@ header nav i {
   .light-two {
   position: absolute;
   left: 50%;
-  top: 12.4%;
+  top: 16.4%;
   }
   
   .dark-two {
@@ -421,7 +421,7 @@ header nav i {
   width: 56.01px;
   height: 10.02px;
   left: 50%;
-  top: 17%;
+  top: 20%;
   background: #6070FF;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
@@ -477,7 +477,7 @@ header nav i {
   .light-two {
   position: absolute;
   left: 70%;
-  top: 27.4%;
+  top: .4%;
   }
 
   .dark-two {
@@ -485,7 +485,7 @@ header nav i {
   width: 56.01px;
   height: 10.02px;
   left: 70%;
-  top: 30%;
+  top: 20%;
   background: #6070FF;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
@@ -511,22 +511,6 @@ header nav i {
     text-align: left;
     color: #172B4D;
   }
-
-  .light-two {
-    position: absolute;
-    left: 50%;
-    top: 16.4%;
-    }
-    
-    .dark-two {
-      position: absolute;
-    width: 56.01px;
-    height: 10.02px;
-    left: 50%;
-    top: 20%;
-    background: #6070FF;
-    transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
-    }
 
   .light-three {
     display: block;
