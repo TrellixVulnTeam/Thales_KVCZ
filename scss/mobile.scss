@@ -1,6 +1,6 @@
 $font-stack: 'Poppins',
 sans-serif;
-$primary-color: #6070FF;
+$primary-color: #172b4d;
 $primary-text: #172B4D;
 $neutral-color: #505F79;
 
@@ -146,8 +146,9 @@ header {
   }
 
   p {
-    font-size: 15px;
-    color: #344563;
+    font-size: 17px;
+    font-weight: bold;
+    color: #172b4d;
     line-height: 24px;
   }
 
@@ -160,7 +161,7 @@ header {
     li {
       margin-right: 10px;
       padding: 4px 7px;
-      font-size: 12px;
+      font-size: 19px;
       font-weight: 500;
       color: $primary-color;
       background-color: #EBEBFF;
