@@ -178,11 +178,11 @@ header nav i {
 .card ul li {
   margin-right: 10px;
   padding: 4px 7px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
-  color: #6070FF;
+  color: #172b4d;
   background-color: #EBEBFF;
-  border-radius: 8px;
+  border: 3px solid #172b4d;
 }
 
 .card .card-buttons {
@@ -193,12 +193,11 @@ header nav i {
 .card .card-buttons a {
   margin-right: 15px;
   text-decoration: none;
-  color: #6070FF;
-  font-size: 14px;
+  color: #172b4d;
+  font-size: 15px;
   font-weight: bold;
   line-height: 24px;
-  border: 1px solid #6070FF;
-  border-radius: 16px;
+  border: 2px solid #172b4d;
   padding: 10px;
 }
 
@@ -342,7 +341,7 @@ header nav i {
 .contact h1 {
   border-top-left-radius: 100px;
   padding-top: 100px;
-  background-color: #6070FF;
+  background-color: #172b4d;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #fff;
@@ -352,7 +351,7 @@ header nav i {
 }
 
 .contact p {
-  background-color: #6070FF;
+  background-color: #172b4d;
   padding: 24px;
   font-size: 20px;
   line-height: 28px;
@@ -366,7 +365,7 @@ header nav i {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #6070FF;
+  background-color:#172b4d;
   padding-bottom: 80px;
 }
 
@@ -409,11 +408,11 @@ header nav i {
   align-self: flex-start;
   margin-left: 10%;
   text-decoration: none;
-  color: #6070FF;
+  color: #172b4d;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
-  border: 1px solid #6070FF;
+  border: 1px solid #172b4d;
   border-radius: 8px;
   padding: 10px 14px;
   background: #fff;
@@ -448,7 +447,7 @@ header nav i {
   height: 10.02px;
   left: 50%;
   top: 20%;
-  background: #6070FF;
+  background: #EBEBFF;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
 
@@ -512,7 +511,7 @@ header nav i {
   height: 10.02px;
   left: 70%;
   top: 20%;
-  background: #6070FF;
+  background: #172b4d;
   transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
   }
 
